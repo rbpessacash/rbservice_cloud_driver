@@ -91,7 +91,7 @@ class DownloadManager {
     }
     _port.listen((dynamic data) {
       String? taskId = data[0];
-      DownloadTaskStatus? status = data[1];
+      DownloadTaskStatus? status = DownloadTaskStatus(data[1]);
       int progress = data[2] <= 0 ? 0 : data[2];
       final callback = _callbacks[taskId];
 

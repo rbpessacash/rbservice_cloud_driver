@@ -72,7 +72,7 @@ dependencies:
   collection: ^1.16.0
   flutter_native_splash: ^2.2.0
   flutter_contacts: ^1.1.5
-  background_downloader: ^7.6.0
+#  background_downloader: ^7.6.0
 
 dependency_overrides:
   ffi: ^2.0.1
